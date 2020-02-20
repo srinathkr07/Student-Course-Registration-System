@@ -1,6 +1,6 @@
 const express = require('express');
-var allstudents=require('/home/srinath/PayPal VAP/folder/Student Course Registration System/overallstudents.json');
-var allcourses=require('/home/srinath/PayPal VAP/folder/Student Course Registration System/availablecourses.json');
+var allstudents=require(/* absolute path for overallstudents.json */);
+var allcourses=require(/* absolute path for availablecourses.json */);
 const app = express();
 
 app.set('views','./views');
@@ -12,6 +12,7 @@ app.use(express.urlencoded({extended: true}));
 regno='';
 flag=-1;
 name='';
+
 //Dashboard
 
 app.post("/", function(req, res){
@@ -169,6 +170,8 @@ app.post("/delist_request", function(req, res){
         }
     }
 });
+
+// To Logout
 
 app.get('/logout', function(req, res){
     delete name;
