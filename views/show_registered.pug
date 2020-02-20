@@ -1,0 +1,39 @@
+html
+  head
+    title Registered Courses
+  body(style='text-align:center;')
+    br
+    h1 Registered Course(s)
+    br
+    if(data.length)
+      h2(style='font-size:150%') Hello #{name}! Your registered course(s) is/are:
+      br
+      br
+      table(style='margin-left: auto; margin-right: auto; text-align: center; font-size:160%')
+        tr
+          th Course Code
+          th Name of the course
+          th Chosen Slot
+
+        tr(style="height: 25px;")
+      
+        each i in data
+          tr
+            td= i.code
+            td= i.name
+            td= i.slot
+          tr(style="height: 13px;")
+  
+    else
+      h2(style='font-size:150%') Hello #{regno}! 
+        br
+        br
+        | Sorry! You have no registered courses! :(
+    br
+    br
+    h2  
+        a(href='/dashboard') Click here
+        |  to go to your Dashboard!
+    h2
+        a(href='/dashboard/logout') Click here
+        |  to Logout!

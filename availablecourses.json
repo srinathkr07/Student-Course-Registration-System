@@ -1,0 +1,36 @@
+[
+    { "name": "Web Mining", 
+      "code": "CSE3024", 
+      "slot": " A1+TA1" 
+    },
+
+    { "name": "Large Scale Data Processing", 
+      "code": "CSE3025", 
+      "slot": " B1+TB1"
+    },
+
+    { "name": "Social and Information Networks", 
+      "code": "CSE3021", 
+      "slot": " C1+TC1" 
+    },
+
+    { "name": "Natural Language Processing", 
+      "code": "CSE4022", 
+      "slot": " D1+TD1" 
+    },
+
+    { "name": "Human Computer Interaction", 
+      "code": "CSE4015", 
+      "slot": " E1+TE1" 
+    },
+
+    { "name": "Machine Learning", 
+      "code": "CSE4020", 
+      "slot": " F1+TF1" 
+    },
+
+    { "name": "Data Visualization", 
+      "code": "CSE3020", 
+      "slot": " G1+TG1" 
+    }
+]

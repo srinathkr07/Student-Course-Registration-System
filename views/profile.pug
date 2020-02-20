@@ -1,0 +1,36 @@
+html
+  head
+    title Profile
+  body(style='text-align:center;')
+    br
+    br
+    h1 Profile
+    br
+    br
+    table(style='margin-left: auto; margin-right: auto; text-align: center; font-size:160%')
+      tr
+        th Registration No.
+        td= data.regno
+      tr(style="height: 20px;")
+
+      tr
+        th Name
+        td= data.name
+      tr(style="height: 20px;")
+
+      tr
+        th CGPA
+        td= data.cgpa
+      tr(style="height: 20px;")
+      
+      tr
+        th Category
+        td= data.category
+    br
+    br
+    h2  
+        a(href='/dashboard') Click here
+        |  to go to your Dashboard!
+    h2
+        a(href='/dashboard/logout') Click here
+        |  to Logout!

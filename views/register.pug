@@ -1,0 +1,28 @@
+head
+  title Register for a course
+br
+body(style='text-align:center;')
+  h1 Register for a course
+  br
+  br
+  h2 Hello #{name}! 
+  h2  To view all the courses that are available, 
+    a(href='/dashboard/courses') Click here
+  br
+  br
+  form(action='/dashboard/register_request', method='POST')
+    h3 Enter the code for the course that you wish to register
+    input(type='text', name='coursecode', placeholder='Course code ')
+    br
+    br
+    br
+    input(type='submit', style="margin:5px;")
+    input(type='reset', style="margin:5px;")
+  br
+  br
+  h2  
+        a(href='/dashboard') Click here
+        |  to go to your Dashboard!
+  h2
+        a(href='/dashboard/logout') Click here
+        |  to Logout!

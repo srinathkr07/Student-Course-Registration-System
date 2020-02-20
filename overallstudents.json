@@ -1,0 +1,43 @@
+[
+    { "regno": "17BCE1001", 
+      "password": "bce1001", 
+      "name": "Brenden Jones", 
+      "cgpa": "8.64", 
+      "category": "Hosteller" 
+    },
+
+    { "regno": "17BCE1002", 
+      "password": "bce1002", 
+      "name": "Lydia Miller", 
+      "cgpa": "9.12", 
+      "category": "Day Scholar" 
+    },
+
+    { "regno": "17BCE1003", 
+      "password": "bce1003", 
+      "name": "Dexter Andersen", 
+      "cgpa": "7.87", 
+      "category": "Day Scholar" 
+    },
+
+    { "regno": "17BCE1004", 
+      "password": "bce1004", 
+      "name": "Kendal Jackson", 
+      "cgpa": "9.02", 
+      "category": "Hosteller" 
+    },
+
+    { "regno": "17BCE1005", 
+      "password": "bce1005", 
+      "name": "Jessie Reynolds", 
+      "cgpa": "8.28", 
+      "category": "Hosteller" 
+    },
+
+    { "regno": "17BCE1006", 
+      "password": "bce1006", 
+      "name": "Scott Richards", 
+      "cgpa": "8.57", 
+      "category": "Day Scholar" 
+    }
+]
