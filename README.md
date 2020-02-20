@@ -1,7 +1,7 @@
 # Student-Course-Registration-System
-A small and a simple Student Course Registration System built using Node.js and Express.js as the mid-term assignment during PayPal Value Added Program (VAP) in VIT Chennai. 
+A small and a simple Student Course Registration System built using Node.js and Express.js as the mid-term assignment during PayPal India's Value Added Program (VAP) in VIT Chennai. 
 
-To start the application, change the given absolute path for the two JSON files in dashboard.js and run app.js 
+To start the application, change the given absolute path for the two JSON files in dashboard.js, run app.js and open http://localhost:4000 in the browser. 
 
 availablecourses.json contains the small set of available courses that the student can register. It contains the details of 7 courses such as course name, course code and slot. 
 
