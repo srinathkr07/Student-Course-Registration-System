@@ -3,7 +3,7 @@ A small and a simple Student Course Registration System built using **Node.js an
 
 To start the application, give the absolute path of the two JSON files **availablecourses.json** and **overallstudents.json** in **dashboard.js**, run **app.js** and open http://localhost:4000 in the browser. 
 
-availablecourses.json contains the small set of available courses that the student can register. It contains the details of 7 courses such as course name, course code and slot. 
+availablecourses.json contains the small set of available courses that the students can register. It contains the details of 7 courses such as course name, course code and slot. 
 
 overallstudents.json contains the small set of students with which this application was built. It contains the details of 6 students such as Registration no., Password (both of which are used as login credentials), Name, CGPA and Type of student (Day Scholar or Hosteller). 
 
